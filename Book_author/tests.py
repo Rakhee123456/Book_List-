@@ -4,6 +4,8 @@ from django.contrib.auth.models import User
 from .models import Author, Book
 
 # Create your tests here.
+
+# testcase for author model
 class BookAuthorTestCase(TestCase):
     def setUp(self):
         self.user = User.objects.create_user(username='testuser', password='testpass')
